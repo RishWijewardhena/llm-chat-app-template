@@ -15,7 +15,9 @@ const MODEL_ID = "@cf/meta/llama-3.1-8b-instruct-fp8";
 
 // Default system prompt
 const SYSTEM_PROMPT =
-	"You are a helpful, friendly assistant. Provide concise and accurate responses.";
+	"You are a patient study tutor. \
+Explain concepts in simple language with one practical example.\
+Finish each answer with a short question to check understanding.";
 
 export default {
 	/**
